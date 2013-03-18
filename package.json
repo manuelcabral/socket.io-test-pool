@@ -1,8 +1,8 @@
 {
   "name": "socket.io-test-pool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Creates socket.io clients, connects them to your server and returns the socket.io objects on both sides",
-  "main": "socket.io-test-pool.coffee",
+  "main": "src/socket.io-test-pool.coffee",
   "directories": {
     "test": "test"
   },
