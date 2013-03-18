@@ -1,0 +1,33 @@
+{
+  "name": "socket.io-test-pool",
+  "version": "0.0.0",
+  "description": "Creates socket.io clients, connects them to your server and returns the socket.io objects on both sides",
+  "main": "socket.io-test-pool.coffee",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r coffee-script test/socket.io-test-pool.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:manuelcabral/socket.io-test-pool.git"
+  },
+  "keywords": [
+    "socket.io",
+    "testing",
+    "multiple socket.io",
+    "socket.io-client"
+  ],
+  "author": "Manuel Cabral",
+  "license": "BSD",
+  "dependencies": {
+    "socket.io-client": "~0.9.11"
+  },
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "socket.io": "~0.9.13",
+    "mocha": "~1.8.2",
+    "coffee-script": "~1.6.2"
+  }
+}
